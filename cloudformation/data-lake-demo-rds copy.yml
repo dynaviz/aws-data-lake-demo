@@ -4,10 +4,10 @@ Metadata:
 Description: Stack for 'Building Data Lakes on AWS' Video Demonstration 2023
 Parameters:
   MyDBSubnetGroupName:
-    Default: 'ARK'  # trzeba koniecznie
+    Default: ''
     Type: String
   MyVPCSecurityGroup:
-    Default: 'ARK'  # trzeba koniecznie ale to jest zle ustawione u mnie
+    Default: ''
     Type: String
 Resources:
   RDSDBInstance:
